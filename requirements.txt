@@ -1,0 +1,9 @@
+langchain>=1.0            # agents (create_agent) + tools
+langchain-openai>=1.0     # talks to the freeLLMAPI gateway (OpenAI-compatible)
+langgraph>=1.0            # the multi-agent workflow graph
+langchain-chroma>=1.0     # LangChain <-> Chroma vector DB
+langchain-text-splitters  # splits PDF pages into chunks
+chromadb>=1.3             # vector DB + local MiniLM embedding model
+pypdf                     # reads text out of PDFs
+reportlab                 # generates the sample PDFs
+streamlit                 # optional web UI with PDF upload
